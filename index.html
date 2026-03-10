@@ -8,7 +8,21 @@
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
+    <div class="toggle-container">
+        <button id="theme-toggle">Switch Theme</button>
+    </div>
     <h1>Hello, World!</h1>
     <p>This content will be styled by your CSS file.</p>
+
+    <script>
+        const toggleButton = document.getElementById('theme-toggle');
+        const htmlElement = document.documentElement;
+
+        toggleButton.addEventListener('click', () => {
+            const currentTheme = htmlElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            htmlElement.setAttribute('data-theme', newTheme);
+        });
+    </script>
 </body>
 </html>
