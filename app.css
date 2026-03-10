@@ -5,7 +5,7 @@
 
 [data-theme='dark'] {
   --bg-color: #121212;
-  --text-color: #ffffff;
+  --text-color: #d1a6a6;
 }
 
 body {
@@ -18,7 +18,8 @@ body {
   flex-direction: column;
   height: 100vh;
   margin: 0;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;  font-family: 'Montserrat', sans-serif;
+
 }
 
 .toggle-container {
