@@ -1,0 +1,1 @@
+This is emulating me working on my local repository, basically making my changes in the working directory and then committing those changes to the local repository, unaware that changes have already been made by my teammate remotely. 
