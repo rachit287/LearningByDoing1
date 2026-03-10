@@ -1,0 +1,8 @@
+Things which need to be resolved, things which need to be learned by the end of this week:
+1. Git and GitHub
+2. Linux workflow
+3. Pencil, which is basically a design-to-code tool
+4. Understanding the basis of components in React
+5. Exploring animation and motion libraries in React
+6. Deploy FounderOS
+7. Explore and integrate ShadCN UI.
