@@ -29,11 +29,26 @@ body {
 }
 
 button {
-  padding: 10px 20px;
+  padding: 8px;
   cursor: pointer;
-  border-radius: 5px;
-  border: 1px solid var(--text-color);
+  border: none;
   background: transparent;
   color: var(--text-color);
-  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
 }
+
+button:active {
+  transform: scale(0.9);
+}
+
+/* Icon Visibility Logic */
+.icon-sun { display: none; }
+.icon-moon { display: block; }
+
+/* When theme is dark, show Sun, hide Moon */
+[data-theme='dark'] .icon-sun { display: block; }
+[data-theme='dark'] .icon-moon { display: none; }
+
